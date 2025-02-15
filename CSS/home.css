@@ -6,7 +6,7 @@ body {
     padding: 0;
     background: url('../images/background.jpg') no-repeat center center fixed;
     background-size: cover;
-    min-height: 100vh; /* Ensure the body covers the entire viewport */
+    min-height: 100vh;
 }
 
 .background-blur {
@@ -24,17 +24,17 @@ body {
 .container {
     position: relative;
     width: 100%;
-    max-width: 1200px; /* Add max-width to prevent it from going beyond the screen */
+    max-width: 1200px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #d3d3d3; /* Light grey text color */
-    padding: 20px; /* Add padding to ensure it doesn't touch the screen edges */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
-    margin: 0 auto; /* Center the container */
+    color: #d3d3d3;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .content-link {
@@ -47,23 +47,23 @@ body {
     position: relative;
     z-index: 1;
     padding: 20px;
-    margin: 10px 0; /* Add margin to separate the content divs */
+    margin: 10px 0;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.8); /* Dark background */
-    border: 5px solid #8a2be2; /* Purple-ish border */
-    width: calc(100% - 40px); /* Ensure the content doesn't touch the screen edges */
-    max-width: 800px; /* Add max-width to constrain the content width */
+    background: rgba(0, 0, 0, 0.8);
+    border: 5px solid #8a2be2;
+    width: calc(100% - 40px);
+    max-width: 800px;
 }
 
 h1 {
     font-size: 3em;
     margin: 0;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
 }
 
 p {
     font-size: 1.2em;
-    color: #d3d3d3; /* Light grey text color */
+    color: #d3d3d3;
 }
 
 .button {
@@ -72,7 +72,7 @@ p {
     margin-top: 20px;
     font-size: 1em;
     color: #ffffff;
-    background-color: #8a2be2; /* Purple-ish background */
+    background-color: #8a2be2;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -80,26 +80,25 @@ p {
 }
 
 .button:hover {
-    background-color: #7a1be2; /* Darker purple on hover */
+    background-color: #7a1be2;
 }
 
 #more-text {
     margin-top: 50px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.8); /* Dark background */
-    border: 5px solid #8a2be2; /* Purple-ish border */
+    background: rgba(0, 0, 0, 0.8);
+    border: 5px solid #8a2be2;
     border-radius: 10px;
 }
 
-/* Media query for mobile devices */
 @media (max-width: 600px) {
     .container {
         padding: 10px;
-        width: calc(100% - 20px); /* Adjust width for mobile devices */
+        width: calc(100% - 20px);
     }
 
     .content {
-        width: calc(100% - 20px); /* Ensure the content doesn't touch the screen edges */
+        width: calc(100% - 20px);
         padding: 10px;
     }
 
